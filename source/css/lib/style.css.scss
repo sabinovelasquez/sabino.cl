@@ -1,5 +1,8 @@
 @import 'functions';
 
+$darkblue: #2c3e50;
+$white: #fff;
+
 body{
 	font-family: 'Inconsolata', ;
 	-webkit-font-smoothing: none;
@@ -26,7 +29,7 @@ body{
 		margin: -25px 0 0 -90px;
 	}
 	h2{
-		color: #fff;
+		color: $white;
 		font-size: 1.2em;
 		width: 100%;
 		position: absolute;
@@ -38,7 +41,12 @@ body{
 	}
 }
 #ido{
-
+	min-height: 400px;
+	background-color: $darkblue;
+	h3{
+		margin: 40px 0;
+		color: $white;
+	}
 }
 #done{
 
