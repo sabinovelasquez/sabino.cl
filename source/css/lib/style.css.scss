@@ -1,22 +1,27 @@
 @import 'functions';
 
+$headerfont: 1.2em;
 $darkblue: #2c3e50;
+$darkgrey: #7f8c8d;
+$darkengrey: #7f8c8d;
 $white: #fff;
+$darkred: #c0392b;
 
 body{
 	font-family: 'Inconsolata', ;
-	-webkit-font-smoothing: none;
-	-moz-osx-font-smoothing: none;
-	font-smoothing: none;
 }
 #modal{
 
 }
 #top{
+	-webkit-font-smoothing: none;
+	-moz-osx-font-smoothing: none;
+	font-smoothing: none;
 	position: relative;
 	height: 520px;
-	background-color: #1a1a1a;
+	background-color: #0a0a0a;
 	h1{
+		z-index: 1;
 		padding: 5px;
 		background-color: #000;
 		font-size: 1.3em;
@@ -29,6 +34,7 @@ body{
 		margin: -25px 0 0 -90px;
 	}
 	h2{
+		z-index: 1;
 		color: $white;
 		font-size: 1.2em;
 		width: 100%;
@@ -36,27 +42,71 @@ body{
 		bottom: 20px;
 	}
 	canvas{
-		width: 100%;
+		position: absolute;
+		left: 50%;
+		margin-left: -450px;
+		width: 900px;
 		height: 520px;
 	}
 }
+
 #ido{
 	min-height: 400px;
 	background-color: $darkblue;
 	h3{
+		font-size: $headerfont;
+		margin: 40px 0;
+		color: $white;
+	}
+}
+#how{
+	min-height: 400px;
+	background-color: $darkgrey;
+	h3{
+		font-size: $headerfont;
 		margin: 40px 0;
 		color: $white;
 	}
 }
 #done{
-
+	min-height: 400px;
+	background-color: $darkblue;
+	h3{
+		font-size: $headerfont;
+		margin: 40px 0;
+		color: $white;
+	}
 }
 #like{
-
+	min-height: 400px;
+	background-color: $darkgrey;
+	h3{
+		font-size: $headerfont;
+		margin: 40px 0;
+		color: $white;
+	}
 }
 #love{
-
+	h3{
+		font-size: $headerfont;
+		margin: 40px 0 10px 0;
+		color: $darkblue;
+	}
+	p{
+		margin: 0 0 40px 0;
+		i{
+			color: $darkred;
+			font-size: 20px;
+		}
+	}
 }
 footer{
-
+	min-height: 100px;
+	padding: 0 0 20px 0;
+	background-color: #3C4142;
+	h3{
+		font-size: $headerfont;
+		margin: 40px 0 10px 0;
+		color: $white;
+	}
 }
