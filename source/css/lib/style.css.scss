@@ -119,17 +119,44 @@ body{
 	}
 }
 #how{
+	position: relative;
 	width: 100%;
 	float: left;
-	min-height: 400px;
-	background-color: $darkgrey;
+	height: 520px;
+	background-color: $darkblue;
+	.hover{
+		position: absolute;
+		z-index: 3;
+		width: 100%;
+		height: 100%;
+		background-image: url('img/3px-tile.png');
+	}
 	h3{
 		font-size: $headerfont;
 		margin: 40px 0;
 		color: $white;
 	}
 	#videohow{
-		height: 83.4%;
+		opacity: .2;
+	}
+	.normal-icon{
+		color: #fff;
+		font-size: 1.5em;
+		line-height: 5em;
+		opacity: .6;
+	}
+	.big-icon{
+		color: #fff;
+    	font-size: 5em;
+	}
+	small{
+		&.title{
+			font-size: 1.1em;
+			color: #0f0;
+		}
+		&.note{
+			color: #fff;
+		}
 	}
 }
 #done{

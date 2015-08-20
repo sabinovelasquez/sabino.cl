@@ -1,7 +1,42 @@
 #how
-	.container
-		%h3.text-center
-			= precede '// ' do
-				This how I do it.
-		.embed-responsive.embed-responsive-4by3
-			%iframe#videohow.embed-responsive-item( src="https://www.youtube.com/embed/Q0iOS_8BsdM?rel=0&autoplay=1&loop=1&playlist=Q0iOS_8BsdM&VQ=HD720&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen )
+	.hover
+		.container
+			%h3.text-center
+				= precede '// ' do
+					This how I do it.
+		.container
+			.row
+				.col-sm-1.hidden-xs
+				.col-xs-6.col-sm-2.text-center
+					.big-icon
+						%i.fa.fa-pencil
+					%small.title
+						sketch
+					= precede '<br /> ' do
+						%small.note
+							(wireframe)
+				.col-xs-6.col-sm-2.text-center
+					.normal-icon
+						%i.fa.fa-arrow-right
+				.col-xs-6.col-sm-2.text-center
+					.big-icon
+						%i.fa.fa-object-ungroup
+					%small.title
+						design
+					= precede '<br /> ' do
+						%small.note
+							(look & feel)
+				.col-xs-6.col-sm-2.text-center
+					.normal-icon
+						%i.fa.fa-arrow-right
+				.col-xs-6.col-sm-2.text-center
+					.big-icon
+						%i.fa.fa-code
+					%small.title
+						code
+					= precede '<br /> ' do
+						%small.note
+							(make it work)
+				.col-sm-1.hidden-xs
+
+	#videohow
