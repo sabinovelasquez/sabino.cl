@@ -1,4 +1,4 @@
-//window.addEventListener("load", windowLoadHandler, false);
+window.addEventListener("load", windowLoadHandler, false);
 
 var Debugger = function() { };
 Debugger.log = function(message) {
