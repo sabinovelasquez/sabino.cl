@@ -174,7 +174,29 @@ footer{
 	background-color: #3C4142;
 	h3{
 		font-size: $headerfont;
-		margin: 40px 0 10px 0;
+		margin: 40px 0 20px 0;
 		color: $yellow;
+	}
+	a{
+		color: $white;
+		@include transition(all .3s ease);
+		&:hover{
+			i{
+				color: $white;
+				background-color: $yellow;
+			}
+		}
+		i{
+			@include transition(all .3s ease);
+			background-color: $darkgrey;
+			line-height: 40px!important;
+		    width: 40px;
+		    height: 40px;
+		    padding: 0;
+			-webkit-border-radius: 50%;
+			-moz-border-radius: 50%;
+			border-radius: 50%;
+			margin-bottom: 10px;
+		}
 	}
 }
