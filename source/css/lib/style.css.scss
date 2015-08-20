@@ -64,7 +64,7 @@ body{
 		color: $yellow;
 	}
 	.vid-med, .vid-full{
-		padding: 0;
+		padding: 0px;
 	}
 	video{
 		@include transition(all .3s ease);
@@ -83,6 +83,7 @@ body{
 		}
 	}
 	img{
+		padding: 0px;
 		@include transition(all .3s ease);
 		filter: grayscale(.8);
 		-webkit-filter: grayscale(.8);
@@ -122,8 +123,11 @@ body{
 	position: relative;
 	width: 100%;
 	float: left;
-	height: 520px;
-	background-color: $darkblue;
+	height: 840px;
+	background-color: #3C4142;
+	@media(min-width: 768px){
+		height: 520px;
+	}
 	.hover{
 		position: absolute;
 		z-index: 3;
@@ -134,7 +138,10 @@ body{
 	h3{
 		font-size: $headerfont;
 		margin: 40px 0;
-		color: $white;
+		color: $yellow;
+	}
+	.vertical{
+		margin-top: 6%;
 	}
 	#videohow{
 		opacity: .2;
@@ -171,6 +178,9 @@ body{
 	}
 }
 #like{
+	background-image: url('img/like.jpg');
+	background-attachment: fixed;
+	background-size:100%;
 	width: 100%;
 	float: left;
 	min-height: 400px;
@@ -178,7 +188,7 @@ body{
 	h3{
 		font-size: $headerfont;
 		margin: 40px 0;
-		color: $white;
+		color: $yellow;
 	}
 }
 #love{
