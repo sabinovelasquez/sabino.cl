@@ -6,7 +6,7 @@ $darkgrey: #7f8c8d;
 $darkengrey: #7f8c8d;
 $white: #fff;
 $darkred: #c0392b;
-
+$yellow: #f1c40f;
 body{
 	font-family: 'Inconsolata', ;
 }
@@ -19,6 +19,8 @@ body{
 	font-smoothing: none;
 	position: relative;
 	height: 520px;
+	width: 100%;
+	overflow:hidden;
 	background-color: #0a0a0a;
 	h1{
 		z-index: 1;
@@ -51,15 +53,74 @@ body{
 }
 
 #ido{
+	width:100%;
+	float: left;
 	min-height: 400px;
+	padding: 0 0 40px 0;
 	background-color: $darkblue;
 	h3{
 		font-size: $headerfont;
 		margin: 40px 0;
+		color: $yellow;
+	}
+	.vid-med, .vid-full{
+		padding: 0;
+	}
+	video{
+		@include transition(all .3s ease);
+		filter: grayscale(1);
+		-webkit-filter: grayscale(1);
+		-moz-filter: grayscale(1);
+		-o-filter: grayscale(1);
+		-ms-filter: grayscale(1);
+		float: left;
+		&:hover{
+			filter: grayscale(0);
+			-webkit-filter: grayscale(0);
+			-moz-filter: grayscale(0);
+			-o-filter: grayscale(0);
+			-ms-filter: grayscale(0);
+		}
+	}
+	img{
+		@include transition(all .3s ease);
+		filter: grayscale(1);
+		-webkit-filter: grayscale(1);
+		-moz-filter: grayscale(1);
+		-o-filter: grayscale(1);
+		-ms-filter: grayscale(1);
+		float:left;
+		&:hover{
+			filter: grayscale(0);
+			-webkit-filter: grayscale(0);
+			-moz-filter: grayscale(0);
+			-o-filter: grayscale(0);
+			-ms-filter: grayscale(0);
+		}
+	}
+	.vid-med{
+		video{
+			width:50%;
+		}
+		img{
+			width:50%;
+		}
+	}
+	.vid-full{
+		video{
+			width:100%;
+		}
+		img{
+			width:100%;
+		}
+	}
+	small{
 		color: $white;
 	}
 }
 #how{
+	width: 100%;
+	float: left;
 	min-height: 400px;
 	background-color: $darkgrey;
 	h3{
@@ -69,15 +130,19 @@ body{
 	}
 }
 #done{
+	width: 100%;
+	float: left;
 	min-height: 400px;
 	background-color: $darkblue;
 	h3{
 		font-size: $headerfont;
 		margin: 40px 0;
-		color: $white;
+		color: $yellow;
 	}
 }
 #like{
+	width: 100%;
+	float: left;
 	min-height: 400px;
 	background-color: $darkgrey;
 	h3{
@@ -107,6 +172,6 @@ footer{
 	h3{
 		font-size: $headerfont;
 		margin: 40px 0 10px 0;
-		color: $white;
+		color: $yellow;
 	}
 }
