@@ -1,12 +1,18 @@
 %footer
 	.container
-		%h3.text-center // Oh, and this is how you find me
+		%h3.text-center 
+			= precede '// ' do
+				Oh, and this is how you find me
 		.row
-			.col-md-3.text-center
-				%i.fa.fa-github
-			.col-md-3.text-center
-				%i.fa.fa-linkedin
-			.col-md-3.text-center
-				%i.fa.fa-facebook
-			.col-md-3.text-center
-				%i.fa.fa-instagram
+			.col-sm-3.col-xs-6.text-center
+				= link_to 'https://github.com/sabinovelasquez/', :target => '_blank' do
+					%i.fa.fa-github				
+			.col-sm-3.col-xs-6.text-center
+				= link_to 'https://www.linkedin.com/in/sabinov', :target => '_blank' do
+					%i.fa.fa-linkedin
+			.col-sm-3.col-xs-6.text-center
+				= link_to 'https://www.facebook.com/sabino.velasquez', :target => '_blank' do
+					%i.fa.fa-facebook
+			.col-sm-3.col-xs-6.text-center
+				= link_to 'https://instagram.com/depointless/', :target => '_blank' do
+					%i.fa.fa-instagram
