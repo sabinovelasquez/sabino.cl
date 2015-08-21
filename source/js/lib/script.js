@@ -8,7 +8,7 @@ function resize(){
 $(window).resize(resize);
 
 $(document).ready(function() {
-	var options = { videoId: 'Q0iOS_8BsdM', start: 3 };
+	var options = { videoId: 'Q0iOS_8BsdM', start: 0 };
 	$('#how').tubular(options);
 	$('.parallax').parallax();
 	resize();
