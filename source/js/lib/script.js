@@ -12,4 +12,9 @@ $(document).ready(function() {
 	$('#how').tubular(options);
 	$('.parallax').parallax();
 	resize();
+	$('footer a').click(function(){
+		var url = $(this).attr('href');
+		ga('send', 'event', 'Redes Sociales', 'click', url);
+		console.log(url);
+	});
 });
