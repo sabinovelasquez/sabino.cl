@@ -15,6 +15,6 @@ $(document).ready(function() {
 	$('footer a').click(function(){
 		var url = $(this).attr('href');
 		ga('send', 'event', 'Redes Sociales', 'click', url);
-		console.log(url);
+		// console.log(url);
 	});
 });
