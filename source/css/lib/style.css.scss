@@ -1,13 +1,7 @@
 @import 'functions';
+@import 'variables';
 
-$headerfont: 1.2em;
-$darkblue: #2c3e50;
-$darkgrey: #7f8c8d;
-$darkengrey: #7f8c8d;
-$white: #fff;
-$darkred: #c0392b;
-$yellow: #f1c40f;
-$turquoise: #1abc9c;
+
 body{
 	font-family: 'Inconsolata' ;
 }
@@ -205,11 +199,13 @@ body{
 	}
 }
 #done{
+	background-image: url('img/45-degree-fabric-dark.png');
 	width: 100%;
 	float: left;
 	min-height: 400px;
 	background-color: $darkblue;
 	h3{
+		position: relative;
 		font-size: $headerfont;
 		margin: 40px 0;
 		color: $yellow;

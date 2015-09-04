@@ -1,10 +1,30 @@
 'use-strict';
 
+var timelineBlocks = $('.cd-timeline-block'),
+	offset = 0.8;
+
+hideBlocks(timelineBlocks, offset);
+
 function resize(){
 	var h = $('.vid-full img').width();
 	$('.vid-med img').height(h/2);
 }
+function hideBlocks(blocks, offset) {
+	blocks.each(function(){
+		( $(this).offset().top > $(window).scrollTop()+$(window).height()*offset ) && $(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+	});
+}
+function showBlocks(blocks, offset) {
+	blocks.each(function(){
+		( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+	});
+}
 
+$(window).on('scroll', function(){
+	(!window.requestAnimationFrame)
+	? setTimeout(function(){ showBlocks(timelineBlocks, offset); }, 100)
+	: window.requestAnimationFrame(function(){ showBlocks(timelineBlocks, offset); });
+});
 $(window).resize(resize);
 
 $(document).ready(function() {
