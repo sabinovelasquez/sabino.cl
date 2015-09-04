@@ -66,12 +66,12 @@ function canvasApp() {
 	function init() {
 		wait = 1;
 		count = wait - 1;
-		numToAddEachFrame = 8;
+		numToAddEachFrame = 3;
 		
 		//particle color
-		r = 70;
-		g = 255;
-		b = 140;
+		r = 44;
+		g = 62;
+		b = 80;
 		
 		rgbString = "rgba("+r+","+g+","+b+","; //partial string for color which will be completed by appending alpha value.
 		particleAlpha = 1; //maximum alpha
