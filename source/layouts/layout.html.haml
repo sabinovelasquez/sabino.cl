@@ -4,13 +4,15 @@
     %meta{:charset => 'utf-8'}
     %meta(http-equiv = 'X-UA-Compatible' content = 'IE=edge')
     %meta(name = 'viewport' content = 'width=device-width, initial-scale=1, maximum-scale=1')
-    
+
     %meta(property = 'og:url' content = 'http://www.sabino.cl')
     %meta(property = 'og:title' content = 'Sabino Velásquez' )
     %meta(property = 'og:image' content = 'http://www.sabino.cl/img/fb.png' )
     %meta(property = 'og:description' content = 'Sabino Velásquez - Developer')
+    %meta(name = 'description' content = 'Sabino is a Web and Application developer. Providing quality user experience through a high level design.' )
+    %meta(name = 'keywords' content = 'front-end development, mobile application developer' )
 
-    %title 
+    %title
       = current_page.data.title || 'Title'
     = stylesheet_link_tag 'all'
 
@@ -19,5 +21,5 @@
     = partial 'partial/header'
     = yield
     = partial 'partial/footer'
-    
+
     = javascript_include_tag 'all'
