@@ -8,6 +8,8 @@ hideBlocks(timelineBlocks, offset);
 function resize(){
 	var h = $('.vid-full img').width();
 	$('.vid-med img').height(h/2);
+	$('.vid-full video').height(h);
+	$('.vid-full img').height(h);
 }
 function hideBlocks(blocks, offset) {
 	blocks.each(function(){
