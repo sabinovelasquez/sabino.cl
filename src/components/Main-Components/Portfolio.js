@@ -70,6 +70,27 @@ export default function Portfolio() {
                             <h2>RPA (Robotic process automation) to sincronize my store inventory with a delivery provider (without an API).</h2>
                         </div>
                     </div>
+
+                    <div className="col-md-6 scroll-animation" data-aos='fade-left'>
+                        <div className="portfolio-item portfolio-half">
+                            <div className="portfolio-item-inner">
+                                <a href="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3lucjByNjc3b3V3NzRveWFxMDEzZXBsaGhrYWxocmYzbDQ0enNrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGKsjx3SrbC6TqCH2d/giphy.gif" data-lightbox="lab-games" data-toggle="lightbox">
+                                {/* <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" data-toggle="lightbox"> */}
+                                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3lucjByNjc3b3V3NzRveWFxMDEzZXBsaGhrYWxocmYzbDQ0enNrZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bGKsjx3SrbC6TqCH2d/giphy.gif" alt="Portfolio"/>
+                                </a>
+
+                                <ul className="portfolio-categories">
+                                    <li>
+                                        <a href="https://howlerjs.com" target="_blank" rel="noreferrer">howler.js</a>
+                                    </li>
+                                    <li>
+                                    <a href="https://nodejs.org" target="_blank" rel="noreferrer">Node.js</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <h2>Game development for marketing campaigns.</h2>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
