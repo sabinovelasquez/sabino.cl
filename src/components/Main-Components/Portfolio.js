@@ -88,7 +88,7 @@ export default function Portfolio() {
                                     </li>
                                 </ul>
                             </div>
-                            <h2>Game development for marketing campaigns.</h2>
+                            <h2>Game development for marketing campaigns (fun!).</h2>
                         </div>
                     </div>
                 </div>
