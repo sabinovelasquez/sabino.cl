@@ -1,31 +1,31 @@
-import React, { useEffect } from "react";
-// import OwlCaraousel from 'react-owl-carousel'
-// import 'owl.carousel/dist/assets/owl.carousel.min.css'
-// import 'owl.carousel/dist/assets/owl.theme.default.min.css'
+import React, { useEffect, useRef } from "react";
+import OwlCaraousel from 'react-owl-carousel'
+import 'owl.carousel/dist/assets/owl.carousel.min.css'
+import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 export default function Testimonials() {
     
-    // const carouselRef = useRef(null);
+    const carouselRef = useRef(null);
 
     useEffect(() => {
         AOS.init({duration:1000})
     }, [])
 
-    // const handlePrevClick = () => {
-    //     carouselRef.current.prev();
-    // }
+    const handlePrevClick = () => {
+        carouselRef.current.prev();
+    }
 
-    // const handleNextClick = () => {
-    //     carouselRef.current.next();
-    // }
+    const handleNextClick = () => {
+        carouselRef.current.next();
+    }
   
   return (
     <section className="testimonial-area page-section scroll-to-page" id="testimonial">
-            {/* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> */}
+            {/* <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-            {/* <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script> */}
+            <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script> */}
 
 
             <div className="custom-container">
@@ -68,7 +68,7 @@ export default function Testimonials() {
                 </div>
             </div>
         </div> 
-                    {/*<div className="testimonial-slider-wrap scroll-animation" data-aos='fade-up'>
+                    <div className="testimonial-slider-wrap scroll-animation" data-aos='fade-up'>
 
                          <OwlCaraousel className="owl-carousel testimonial-slider owl-theme" smartSpeed="450" items="1" dots={true} ref={carouselRef}>
                             <div className="testimonial-item">
@@ -121,15 +121,15 @@ export default function Testimonials() {
                                     <a href="" className="project-btn">Project</a>
                                 </div>
                             </div>
-                        </OwlCaraousel> */}
-                        {/* <div className="testimonial-footer-nav">
+                        </OwlCaraousel>
+                        <div className="testimonial-footer-nav">
                             <div className="testimonial-nav d-flex align-items-center">
                                 <button className="prev" onClick={handlePrevClick} ><i className="las la-angle-left"></i></button>
                                 <div id="testimonial-slide-count"><span className="left">1</span> /3</div>
                                 <button className="next" onClick={handleNextClick} ><i className="las la-angle-right"></i></button>
                             </div>
                         </div> 
-                    </div>*/}
+                    </div>
                 </div>
             </div>
     </section>
