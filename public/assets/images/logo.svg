@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="550px" height="200px" viewBox="0 0 550 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="58%" y1="0%" x2="42%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#644B00" offset="0%"></stop>
+            <stop stop-color="#A97F01" offset="52.9650714%"></stop>
+            <stop stop-color="#E7AD01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#644B00" offset="0%"></stop>
+            <stop stop-color="#E7AD01" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="#644B00" offset="0%"></stop>
+            <stop stop-color="#E7AD01" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-445.000000, -412.000000)">
+            <g id="Group" transform="translate(445.000000, 412.000000)">
+                <path d="M50,75 L50,75 L50,150 C50,177.614237 27.6142375,200 3.14833264e-14,200 L2.84217094e-14,200 L2.84217094e-14,125 C2.50399407e-14,97.3857625 22.3857625,75 50,75 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                <path d="M183.172433,129 C193.931379,143.335536 214.230653,153 237.5,153 C260.769347,153 281.068621,143.335536 291.827567,129 C297.028463,135.929827 300,143.951178 300,152.5 C300,178.733526 272.017797,200 237.5,200 C202.982203,200 175,178.733526 175,152.5 C175,143.951178 177.971537,135.929827 183.172433,129 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+                <path d="M325,0 L325,0 C352.614237,-5.07265313e-15 375,22.3857625 375,50 L375,200 L375,200 C347.385763,200 325,177.614237 325,150 L325,0 Z" id="Rectangle" fill="#E7AD01"></path>
+                <path d="M300,1.98951966e-13 L300,1.98951966e-13 L300,149.990001 C300,177.062889 278.053088,199.009801 250.9802,199.009801 C250.653442,199.009801 250.326692,199.006534 250,199 L250,199 L250,50 C250,22.3857625 272.385763,2.51386474e-13 300,1.98951966e-13 Z" id="Rectangle" fill="#E7AD01"></path>
+                <path d="M50,0 L150,0 L150,0 C150,27.6142375 127.614237,50 100,50 L1.13686838e-13,50 L1.13686838e-13,50 C1.10305069e-13,22.3857625 22.3857625,3.38176876e-15 50,0 Z" id="Rectangle" fill="#E7AD01"></path>
+                <path d="M50,75 L125,75 L125,75 C125,102.614237 102.614237,125 75,125 L1.13686838e-13,125 L1.13686838e-13,125 C1.10305069e-13,97.3857625 22.3857625,75 50,75 Z" id="Rectangle" fill="#E7AD01"></path>
+                <polygon id="Path" fill="url(#linearGradient-3)" points="450 100 500 2.84217094e-14 550 1.42108547e-14 500 100 550 200 500 200"></polygon>
+                <path d="M450,100 L400,200 L400,200 C430.643303,200 458.656578,182.686844 472.36068,155.27864 L500,100 L472.36068,44.7213595 C458.656578,17.3131559 430.643303,-5.62908348e-15 400,0 L400,0 L450,100 Z" id="Path-3" fill="#E7AD01"></path>
+                <path d="M175,0 L175,0 C202.614237,-5.07265313e-15 225,22.3857625 225,50 L225,199 L225,199 C197.932525,199.54135 175.551151,178.037676 175.009801,150.970201 C175.003267,150.643508 175,150.316759 175,149.990001 L175,0 Z" id="Rectangle" fill="#E7AD01"></path>
+            </g>
+        </g>
+    </g>
+</svg>

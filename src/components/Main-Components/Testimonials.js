@@ -68,7 +68,7 @@ export default function Testimonials() {
                 </div>
             </div>
         </div> 
-                    <div className="testimonial-slider-wrap scroll-animation" data-aos='fade-up'>
+                    {/* <div className="testimonial-slider-wrap scroll-animation" data-aos='fade-up'>
 
                          <OwlCaraousel className="owl-carousel testimonial-slider owl-theme" smartSpeed="450" items="1" dots={true} ref={carouselRef}>
                             <div className="testimonial-item">
@@ -129,7 +129,7 @@ export default function Testimonials() {
                                 <button className="next" onClick={handleNextClick} ><i className="las la-angle-right"></i></button>
                             </div>
                         </div> 
-                    </div>
+                    </div> */}
                 </div>
             </div>
     </section>

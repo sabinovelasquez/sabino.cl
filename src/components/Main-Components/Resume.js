@@ -18,6 +18,16 @@ export default function Resume() {
                 </div>
 
                 <div className="resume-timeline">
+                    <div className="item scroll-animation" data-aos='fade-left'>
+                        <span className="date">2023 - Present</span>
+                        <h2>Founder / It Consultant</h2>
+                        <p>
+                            <a href="https://fuix.cl" title='Fuix' target="_blank" rel="noreferrer" style={{color: '#e4af12'}}>
+                                <img src="assets/images/logo-min.svg" height={60} alt="logo" style={{marginRight: '0px'}}/>
+                                <span>Fuix</span>
+                            </a>
+                        </p>
+                    </div>
                     <div className="item scroll-animation" data-aos='fade-right'>
                         <span className="date">2022 - 2023</span>
                         <h2>CTO</h2>
